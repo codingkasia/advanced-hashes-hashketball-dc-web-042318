@@ -1,0 +1,31 @@
+
+[1mFrom:[0m /home/codingkasia/advanced-hashes-hashketball-dc-web-042318/hashketball.rb @ line 129 Object#num_points_scored:
+
+    [1;34m121[0m: [32mdef[0m [1;34mnum_points_scored[0m(name)
+    [1;34m122[0m:   game_hash.each [32mdo[0m |location, data|
+    [1;34m123[0m:     data.each [32mdo[0m |cat, b|
+    [1;34m124[0m:       [32mif[0m(cat == [33m:players[0m)
+    [1;34m125[0m:        [1;34m# puts "PLAYERS B = #{b}"[0m
+    [1;34m126[0m:       b.each [32mdo[0m |names, values|
+    [1;34m127[0m:         [31m[1;31m"[0m[31mNAMES = #{names}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m128[0m:         [31m[1;31m"[0m[31mVALUES  = #{values}[0m[31m[1;31m"[0m[31m[0m
+ => [1;34m129[0m:         binding.pry 
+    [1;34m130[0m:         name.each [32mdo[0m |cats, nums|
+    [1;34m131[0m:           [32mif[0m(cat)
+    [1;34m132[0m:         puts [31m[1;31m"[0m[31mNAMES = #{names}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m133[0m:           [32mif[0m(names === name)
+    [1;34m134[0m:             names.each [32mdo[0m |criterias, num| 
+    [1;34m135[0m:               [32mif[0m(criterias == [33m:points[0m)
+    [1;34m136[0m:                 puts [31m[1;31m"[0m[31mNUM = #{num}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m137[0m:                 [32mreturn[0m num
+    [1;34m138[0m:               [32mend[0m 
+    [1;34m139[0m:             [32mend[0m
+    [1;34m140[0m:             [32mend[0m
+    [1;34m141[0m:           [32mend[0m
+    [1;34m142[0m:         [32mend[0m 
+    [1;34m143[0m:         [32mend[0m
+    [1;34m144[0m:       [32mend[0m
+    [1;34m145[0m:     [32mend[0m
+    [1;34m146[0m:   [32mend[0m
+    [1;34m147[0m: [32mend[0m
+
